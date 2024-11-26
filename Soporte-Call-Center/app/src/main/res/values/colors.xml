@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent_color">#00000000</color>
+    <color name="primary_color">#00003a</color> <!-- color primario -->
+    <!-- paleta de colores https://material.io/design/color/#tools-for-picking-colors  -->
+    <color name="primary_dark_color">#00003a</color>
+    <color name="primary_light_color">#f3ffb0</color>
+    <color name="primary_color_disabled">#880061</color> <!-- Try to have a color that renders well on both light & dark theme -->
+    <color name="notification_led_color">#5c00d2</color>
+    <color name="button_color_session">#743496</color>
+    <color name="numseries_color">#77D2F7</color>
+    <!--colores principales-->
+
+    <!--colores unitarios-->
+    <color name="black_color">#000000</color>
+    <color name="dark_grey_color">#444444</color>
+    <color name="grey_color">#808080</color>
+    <color name="light_grey_color">#fff2df</color>
+    <color name="white_color">#ffffff</color>
+    <color name="red_color">#ff0000</color>
+    <color name="green_color">#96c11f</color>
+    <color name="dark_green_color">#09af00</color>
+
+
+    <!--colores de panel de llamadas-->
+    <color name="voip_gray_blue_color">#CFD8DC</color><!--Fondo de llamada-->
+    <color name="voip_light_gray">#D0D8DE</color>
+    <color name="voip_dark_gray">#4B5964</color>
+    <color name="voip_gray">#96A5B1</color>
+    <color name="voip_gray_background">#AFAFAF</color>
+    <color name="voip_gray_dots">#D8D8D8</color>
+    <color name="voip_call_record_background">#EBEBEB</color>
+    <color name="voip_calls_list_inactive_background">#F0F1F2</color>
+    <color name="voip_translucent_popup_background">#A64B5964</color>
+    <color name="voip_translucent_popup_alt_background">#E64B5964</color>
+    <color name="voip_numpad_background">#E4E4E4</color>
+    <color name="voip_conference_participant_paused_background">#303030</color>
+    <color name="voip_dark_color">#252E35</color>  <!-- Fondo -->
+    <color name="voip_dark_color2">#F5F5F5</color>  <!-- Light gray -->
+    <color name="voip_dark_color3">#475663</color> <!-- Extra buttons -->
+    <color name="voip_dark_color4">#2D3841</color> <!-- Top bars -->
+    <color name="voip_dark_color5">#353B3F</color> <!-- Scheduled conference background dark mode -->
+    <color name="voip_text_dark_color">#6E8596</color> <!-- Text color above voip_dark_color5 -->
+
+    <color name="form_field_gray_background">#F7F7F7</color>
+
+    <color name="imdn_read_color">#3eb5c0</color>
+    <color name="toolbar_color">#e1e1e1</color>
+    <color name="header_background_color">#f3f3f3</color>
+
+    <color name="disabled_color">#808080</color>
+    <color name="contact_disabled_color">#99ffffff</color>
+
+    <!--colores de registro-->
+    <color name="led_registered">#4CD610</color>
+    <color name="led_registration_in_progress">#FBC02D</color>
+    <color name="led_not_registered">#FAFAFA</color>
+    <color name="led_error">#EF5350</color>
+</resources>

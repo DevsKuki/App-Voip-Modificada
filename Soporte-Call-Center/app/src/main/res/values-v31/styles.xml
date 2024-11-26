@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <style name="AppSplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/voip_dark_color3</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_sycall_inicio</item>
+        <item name="postSplashScreenTheme">@style/AppTheme</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/logo_syscall</item>
+    </style>
+</resources>

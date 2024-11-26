@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="40dp"
+        android:elevation="1dp"
+        app:cardElevation="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/lado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/tvImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@null"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvUsename"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBottom_toTopOf="@id/tvPhoneNumber"
+                app:layout_constraintStart_toEndOf="@id/tvImage"
+                app:layout_constraintTop_toTopOf="@id/tvImage"
+                tools:hint="Nombre y Apellidos" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvPhoneNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBottom_toBottomOf="@id/tvImage"
+                app:layout_constraintStart_toEndOf="@id/tvImage"
+                app:layout_constraintTop_toBottomOf="@id/tvUsename"
+                tools:hint="Numero Asignado" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvRoleDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                app:layout_constraintStart_toEndOf="@id/tvImage"
+                app:layout_constraintTop_toBottomOf="@id/tvPhoneNumber"
+                android:padding="4dp"
+                tools:hint="Cargo" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLlamar"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="8dp"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/call_alt_start"
+                app:iconGravity="textStart"
+                app:iconSize="24dp"
+                app:layout_constraintBottom_toBottomOf="@id/tvPhoneNumber"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintTop_toBottomOf="@id/tvUsename" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</layout>

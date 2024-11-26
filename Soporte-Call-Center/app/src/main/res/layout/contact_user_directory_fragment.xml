@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/etFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="?attr/colorPrimary"
+                android:imeOptions="actionDone"
+                android:drawableStart="@drawable/search"
+                android:drawablePadding="20dp"
+                android:hint="Buscar Personal"
+                android:textColorHint="?attr/colorPrimary"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/tvWelcomeMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etFilter"
+                android:textColorHint="?attr/colorPrimary"
+                android:layout_margin="5dp"
+                android:layout_marginTop="40dp"
+                android:textStyle="bold|italic"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:hint="@string/search_user_filter"
+                android:layout_gravity="center"
+                android:visibility="visible"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvUsuarios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvWelcomeMessage"
+                android:layout_margin="5dp"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"
+                android:visibility="gone" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvSistemas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rvUsuarios"
+                android:layout_margin="5dp"
+                android:layout_marginTop="116dp"
+                android:padding="10dp" />
+
+
+        </RelativeLayout>
+
+</layout>
+
+
